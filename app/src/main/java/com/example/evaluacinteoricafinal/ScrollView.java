@@ -48,7 +48,7 @@ public class ScrollView extends AppCompatActivity {
                 break;
                 //
             case R.id.melon:
-                Toast.makeText(this, "Estos son melon", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Estos son melones", Toast.LENGTH_SHORT).show();
                 break;
                 //
             case R.id.naranjas:
@@ -56,7 +56,11 @@ public class ScrollView extends AppCompatActivity {
                 break;
                 //
             case R.id.pera:
-                Toast.makeText(this, "Estas son pera", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Estas son peras", Toast.LENGTH_SHORT).show();
+                break;
+            //
+            case R.id.piña:
+                Toast.makeText(this, "Estas son piñas", Toast.LENGTH_SHORT).show();
                 break;
                 //
             case R.id.sandia:

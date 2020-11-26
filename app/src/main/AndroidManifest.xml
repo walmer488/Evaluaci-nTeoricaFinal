@@ -9,6 +9,11 @@
         android:roundIcon="@drawable/perfil"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Acercade">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
         <activity android:name=".ScrollView">
             <meta-data
@@ -16,7 +21,7 @@
                 android:value=".MainActivity" />
         </activity>
 
-        <activity android:name=".FrameLayout" >
+        <activity android:name=".FrameLayout">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
