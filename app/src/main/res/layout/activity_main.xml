@@ -7,94 +7,22 @@
     android:layout_marginHorizontal="10dp"
     android:stretchColumns="1">
 
-    <TableRow>
-        <TextView
-            android:layout_column="1"
-            android:textStyle="bold"
-            android:text="Abrir..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-O"
-            android:textStyle="bold"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
-
-    <TableRow>
-        <TextView
-            android:layout_column="1"
-            android:textStyle="bold"
-            android:text="Guardar..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-S"
-            android:textStyle="bold"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
-
-    <TableRow>
-        <TextView
-            android:layout_column="1"
-            android:textStyle="bold"
-            android:text="Guardar como..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-Shift-S"
-            android:textStyle="bold"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
-
-    <View
-        android:layout_height="2dip"
-        android:background="#FF909090" />
-
-    <TableRow>
-        <TextView
-            android:text="X"
-            android:textStyle="bold"
-            android:padding="3dip" />
-        <TextView
-            android:text="Importar..."
-            android:textStyle="bold"
-            android:padding="3dip" />
-    </TableRow>
-
-    <TableRow>
-        <TextView
-            android:text="X"
-            android:textStyle="bold"
-            android:padding="3dip" />
-        <TextView
-            android:textStyle="bold"
-            android:text="Exportar..."
-            android:padding="3dip" />
-        <TextView
-            android:textStyle="bold"
-            android:text="Ctrl-E"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
-
-    <View
-        android:layout_height="2dip"
-        android:background="#FF909090" />
-
-    <TableRow>
-        <TextView
-            android:textStyle="bold"
-            android:layout_column="1"
-            android:text="Salir"
-            android:padding="3dip" />
-    </TableRow>
 
     <Button
         android:id="@+id/buton"
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Siguiente TableLayout"
+        android:text="Table Layout"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buton1"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tab Layout"
         android:textStyle="bold"
         android:textSize="20dp"/>
 </TableLayout>
