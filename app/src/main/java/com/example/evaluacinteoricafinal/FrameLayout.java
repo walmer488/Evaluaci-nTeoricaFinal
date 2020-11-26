@@ -15,7 +15,7 @@ public class FrameLayout extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frame_layout);
-
+        setTitle("FrameLayout");
         iv1 = findViewById(R.id.imageView);
         boton1 = findViewById(R.id.buttonocultar);
 

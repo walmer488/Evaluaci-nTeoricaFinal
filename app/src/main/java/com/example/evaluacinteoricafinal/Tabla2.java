@@ -22,6 +22,7 @@ public class Tabla2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabla2);
+        setTitle("TableLayout");
 
         boton1 = findViewById(R.id.boton1);
         boton2 = findViewById(R.id.boton2);
