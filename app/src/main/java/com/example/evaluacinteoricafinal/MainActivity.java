@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TableLayout;
 
 public class MainActivity extends AppCompatActivity {
-    private Button buton, buton1;
+    private Button buton, buton1, buton2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         buton  = findViewById(R.id.buton);
         buton1  = findViewById(R.id.buton1);
+        buton2  = findViewById(R.id.buton2);
         buton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,7 +29,15 @@ public class MainActivity extends AppCompatActivity {
         buton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), TabLayout.class);
+                Intent intent = new Intent(getApplicationContext(), FrameLayout.class);
+                startActivity(intent);
+            }
+        });
+
+        buton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ScrollView.class);
                 startActivity(intent);
             }
         });
